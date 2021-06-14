@@ -16,3 +16,18 @@ Converts to any base
   1 = 0 * 2 + 1   (1)
 1100100
 ```
+
+## convert2hex
+```sh
+./convert2hex 1030
+1030 = 64 * 16 + 6   (6)
+  64 = 4 * 16 + 0    (0)
+   4 = 0 * 16 + 4    (4)
+0x406
+```
+
+##convert2tenandhex
+```sh
+./convert2tenandhex 34
+34 22 
+```
