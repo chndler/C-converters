@@ -30,7 +30,7 @@ Converts to any base
 
 --- 
 
-##convert2tenandhex
+## convert2tenandhex
 ```sh
 ./convert2tenandhex 34
 34 22 
