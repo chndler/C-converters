@@ -1,6 +1,7 @@
 # C-converters
-Various classes for converting between hex, decimal, any base
+Various classes for converting between hex, decimal, any base.
 
+Shows process for base conversion using succession of Euclidean divisions. Useful for understanding the process of base conversions.
 
 ## convert2base
 Converts to any base
