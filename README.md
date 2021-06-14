@@ -17,7 +17,7 @@ Converts to any base
 1100100
 ```
 
---- 
+
  
 ## convert2hex
 ```sh
@@ -28,7 +28,7 @@ Converts to any base
 0x406
 ```
 
---- 
+
 
 ## convert2tenandhex
 ```sh
