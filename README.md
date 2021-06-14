@@ -5,7 +5,7 @@ Shows process for base conversion using succession of Euclidean divisions. Usefu
 
 ## convert2base
 Converts to any base
-```C
+```sh
 ./convert2base 2 100
 100 = 50 * 2 + 0  (0)
  50 = 25 * 2 + 0  (0)
