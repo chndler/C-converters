@@ -18,7 +18,7 @@ Converts decimal number to any base. Shows process for base conversion using suc
 
  
 ## convert2hex
-Converts decimal to hexidecimal. Shows process for base conversion using succession of Euclidean divisions. Useful for understanding the process of base conversions to hex.
+Converts decimal to hexadecimal. Shows process for base conversion using succession of Euclidean divisions. Useful for understanding the process of base conversions to hex.
 ```sh
 ./convert2hex 1030
 1030 = 64 * 16 + 6   (6)
