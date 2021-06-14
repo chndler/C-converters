@@ -17,6 +17,8 @@ Converts to any base
 1100100
 ```
 
+--- 
+ 
 ## convert2hex
 ```sh
 ./convert2hex 1030
@@ -25,6 +27,8 @@ Converts to any base
    4 = 0 * 16 + 4    (4)
 0x406
 ```
+
+--- 
 
 ##convert2tenandhex
 ```sh
