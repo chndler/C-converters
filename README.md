@@ -34,6 +34,6 @@ Converts decimal/hex value to decimal/hex, returns original value and converted 
 ```
 ./convert2tenandhex 13
 13 0xD
-./convert2tenandhex 0x14
-20 0x14
+./convert2tenandhex 0x13
+19 0x13
 ```
