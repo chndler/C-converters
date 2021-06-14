@@ -30,8 +30,10 @@ Converts decimal to hexadecimal. Shows process for base conversion using success
 
 
 ## convert2tenandhex
-Converts decimal to hex, returns original decimal and hex variant in single line. 
+Converts decimal/hex value to decimal/hex, returns original value and converted value in 1 line. 
 ```
-./convert2tenandhex 34
-34 22 
+./convert2tenandhex 13
+13 0xD
+./convert2tenandhex 0x14
+20 0x14
 ```
