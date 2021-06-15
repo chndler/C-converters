@@ -15,7 +15,7 @@ int main(int argc, char **argv){
 		result = strtol(argv[1], NULL, 16);
 		//Moves argv1 ptr past '0x'
 		argv[1] = &argv[1][2];
-		printf("%ld %s \n", result, argv[1]);
+		printf("%ld 0x%s \n", result, argv[1]);
 	}
 
 	//Converts and prints answer if token is decimal
@@ -25,7 +25,7 @@ int main(int argc, char **argv){
 			argv[1]++;
 		}
 		result = strtol(argv[1], NULL, 0);
-		printf("%ld %X \n", result, (int)result);
+		printf("%ld 0x%X \n", result, (int)result);
 	}
 
 	return 0;
