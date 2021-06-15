@@ -7,7 +7,8 @@ char convertRemain(int);
 int main(int argc, char **argv) {
     long long quotient, value;
     int base, remainder, spacing, j = 0;
-    char answer[arr_length+1]; //array will be large enough to store answer
+    int array_length = 127;
+    char answer[array_length+1]; //array will be large enough to store answer
 
     base = 16;
     value = strtoll(argv[1], NULL, 10);
@@ -24,16 +25,16 @@ int main(int argc, char **argv) {
             whitespace = spacing;
         printf("%*llu = %llu * %d + %-*d (%c)\n", spacing, value, quotient, base, whitespace, remainder, convertRemain(remainder));
     
-        answer[(arr_length-1)-j]=convertRemain(remainder);
+        answer[(array_length-1)-j]=convertRemain(remainder);
         j++;
         value = quotient;
     }
     printf("0x");
     while(j > 0){ //prints array
-        printf("%c", answer[arr_length-j]);
+        printf("%c", answer[array_length-j]);
         j--;
     }
-    printf("\n\n");    
+    printf("\n");    
     return 0;
 }
 
