@@ -2,7 +2,7 @@
 Various classes for converting between hex, decimal, any base.
 
 ## convert2base
-Converts decimal number to any base. Shows process for base conversion using succession of Euclidean divisions. Useful for understanding the process of base arbitrary conversions.
+Converts decimal number to any base. Shows process for base conversion using succession of Euclidean divisions. Useful for understanding the process of arbitrary base conversions.
 ```
 ./convert2base 2 100
 100 = 50 * 2 + 0  (0)
